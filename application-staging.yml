@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://staging-db:5432/vehicles
+    username: staging_user
+    password: staging_pass
+  jpa:
+    hibernate:
+      ddl-auto: validate

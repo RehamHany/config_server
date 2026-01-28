@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: task
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  server:
+    port: 8081
+
+server:
+  port: 8081
+
+

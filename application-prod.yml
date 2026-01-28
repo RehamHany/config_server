@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://prod-db:5432/vehicles
+    username: prod_user
+    password: prod_pass
+  jpa:
+    hibernate:
+      ddl-auto: none
